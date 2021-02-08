@@ -34,6 +34,7 @@ jobs:
             
     - name: Creating build
       run:  yarn build
+            yarn add react-redux
       
     - name: installing surge
       run:  npm install -g surge

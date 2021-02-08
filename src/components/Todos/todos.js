@@ -40,7 +40,7 @@ export const Todos = () => {
   return (
     <div className='App'>
       <div className='App__header'>
-        <h1> Redux Todo List App with Toolkit</h1>
+        <h1> Todo List App with Redux Toolkit</h1>
         <form onSubmit={handleNewTodo}>
           <label htmlFor='new-todo' style={{ display: 'none' }}>
             New Todo:
